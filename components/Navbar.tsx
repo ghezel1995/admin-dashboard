@@ -21,7 +21,7 @@ const Navbar = () => {
           <DropdownMenuTrigger className='focus:outline-none'>
             <Avatar>
               <AvatarImage
-                src='https://plus.unsplash.com/premium_vector-1682300459292-2e1042e68cb1?bg=FFFFFF&w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mzh8fHBvcnRyYWl0fGVufDB8fDB8fHww'
+                src='https://images.unsplash.com/photo-1518288774672-b94e808873ff?q=80&w=1938&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
                 alt='Profile pic'
               />
               <AvatarFallback className='text-black'>MD</AvatarFallback>
@@ -34,7 +34,7 @@ const Navbar = () => {
               <Link href='/profile'>Profile</Link>
             </DropdownMenuItem>
             <DropdownMenuItem>
-              <Link href='/auth'>Profile</Link>
+              <Link href='/auth'>Logout</Link>
             </DropdownMenuItem>
           </DropdownMenuContent>
         </DropdownMenu>
