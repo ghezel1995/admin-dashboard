@@ -21,7 +21,7 @@ function ThemeToggler() {
         <Button
           variant='outline'
           size={null}
-          className='bg-slate-800 hover:bg-slate-700  border-0 mr-5 p-2'
+          className='bg-slate-900 hover:bg-slate-800 dark:bg-slate-700   border-0 mr-5 p-2'
         >
           <Sun className='h-[1.2rem] w-[1.2rem] rotate-0 scale-100 hover:text-yellow-300 text-yellow-200 transition-all dark:-rotate-90 dark:scale-0' />
           <Moon className='absolute h-[1.2rem] w-[1.2rem] rotate-90 scale-0 transition-all text-white dark:rotate-0 dark:scale-100' />
