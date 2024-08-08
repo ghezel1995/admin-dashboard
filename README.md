@@ -1,36 +1,87 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Admin Dashboard App
 
-## Getting Started
+Welcome to the Admin Dashboard App! This application is designed for efficient administrative management with a modern, responsive UI. It uses Next.js, React, and Tailwind CSS among other tools to deliver a powerful and user-friendly experience.
 
-First, run the development server:
+## Features
 
-```bash
+- **Responsive Design**: Optimized for all device sizes.
+- **Interactive UI**: Built with Radix UI components for modals, dropdowns, tabs, and more.
+- **Data Visualization**: Utilize Recharts for displaying complex data in a digestible format.
+- **Forms and Validation**: Integrated React Hook Form with Zod for form handling and validation.
+- **Dynamic Themes**: Support for dark and light themes using Next Themes.
+- **Tailwind CSS**: Enhanced styling with Tailwind CSS and its plugins.
+
+## Installation
+
+To get started with the Admin Dashboard App locally, follow these steps:
+
+### Prerequisites
+
+- [Node.js](https://nodejs.org/en/) (version 16.x or higher recommended)
+- [npm](https://www.npmjs.com/) or [Yarn](https://yarnpkg.com/)
+
+### Steps
+
+1. **Clone the repository**
+
+   ```sh
+   git clone https://github.com/ghezel1995/admin-dashboard.git
+
+2. **Navigate into the project directory**
+
+```sh
+cd admin-dashboard
+```
+
+3. **Install the dependencies**
+
+```sh
+npm install
+# or
+yarn install
+```
+
+4. **Start the development server**
+
+```sh
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Usage
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Navigating the Dashboard
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- **Dashboard Home**: Overview of key metrics and data visualizations.
+- **User Management**: Manage and view user details.
+- **Settings**: Adjust application settings and preferences.
+- **Reports**: Generate and view various reports.
 
-## Learn More
+### Forms and Validation
 
-To learn more about Next.js, take a look at the following resources:
+- Utilize the built-in forms for data entry, leveraging React Hook Form for easy management and Zod for schema validation.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Theming
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- Switch between light and dark modes using the integrated Next Themes.
 
-## Deploy on Vercel
+## Deployment
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- To deploy the application, you can use GitHub Pages or any other hosting service. For GitHub Pages:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+01. Build the project.
+
+```sh
+npm run build
+# or
+yarn build
+```
+
+02. Deploy to GitHub Pages.
+
+ ```sh
+npm run deploy
+# or
+yarn deploy
+```
