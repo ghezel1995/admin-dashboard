@@ -26,6 +26,7 @@ To get started with the Admin Dashboard App locally, follow these steps:
 
    ```sh
    git clone https://github.com/ghezel1995/admin-dashboard.git
+   ```
 
 2. **Navigate into the project directory**
 
